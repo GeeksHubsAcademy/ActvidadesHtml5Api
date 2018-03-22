@@ -10,12 +10,11 @@ Actividades Html5
 * Se creará un botón de borrado de todas  a la vez.
 * Se comprobará que no existe nada más almacenado en el localstorage la primera vez que se ejecuta la aplicación. en el caso de existir deberá lanzarse un mensaje que pregunte si quiere eliminarlo, de esta manera nos aseguramos de que en la primera ejecución no hay nada que ensuce la aplicación.
 * Se debe utiliza BootStrap y Jquery para la ejecución de la actividad.
-
+---
 ## Utilización de WebWorkers
 > Crea una aplicación para calcular una serie de Fibonacci a partir de un WebWorker, para ello le pediremos el número de iteraciones y el resultado será presentado en pantalla, el algoritmo utilizado:
 ```javascript
- 
- function calcularFibonacci(valor)
+function calcularFibonacci(valor)
  {
     var i, 
     fibo = 1, 
