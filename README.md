@@ -42,7 +42,7 @@ Inicializaión de SoundCloud en:
 
 ```javascript
 SC.initialize({
-	client_id: 'aa06b0630e34d6055f9c6f8beb8e02eb'
+	client_id: [client-id]
 });
 ```
 Para la búsqueda de canciones por autor
