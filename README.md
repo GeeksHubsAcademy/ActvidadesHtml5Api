@@ -62,4 +62,13 @@ SC.get('/tracks',{
 		});
   ```
   A partir de estas especificaciones podéis investigar y añadir nuevas funcionalidades.
+  
+  ---
+  ## Utilización de la geolocalización
+  >Vamos a crear una aplicación para geolocalizarnos para ello presentaremos en un mapa de google maps nuestra posición.
+  ### Características.
+  >Utilizando la api de HTML5 localizaremos nuestra posición para colocarnos en pantalla utilizaremos la siguiente petición a la api de google maps.
+  ```javascript
+  http://maps.googleapis.com/maps/api/staticmap?center=" + latitude + "," + longitude + "&zoom=13&size=300x300&sensor=false"
+  ```
  
